@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="001springhelloworld" />
+        <module name="helloworld" />
         <module name="002springweb" />
+        <module name="springweb" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +17,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="001springhelloworld" options="-parameters" />
       <module name="002springweb" options="-parameters" />
+      <module name="helloworld" options="-parameters" />
+      <module name="springweb" options="-parameters" />
     </option>
   </component>
 </project>

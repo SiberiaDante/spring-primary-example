@@ -1,4 +1,4 @@
-package com.dante.springweb;
+package com.dante.springweb.util;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -11,7 +11,6 @@ public class NeoProperties {
     private String title;
     @Value("${com.dante.description}")
     private String description;
-
 
     public String getTitle() {
         return title;
