@@ -25,4 +25,17 @@ public class ThymeleafController {
 
         return "hello";
     }
+
+    @RequestMapping("/showMessage")
+    public String showMessage(Locale locale, Model model) {
+        model.addAttribute("message", "message");
+        model.addAttribute("message_title", "Message Title");
+        return "01hello";
+    }
+
+    @RequestMapping("/test")
+    public String test(Locale locale, Model model) {
+        model.addAttribute("message", "message");
+        return "test";
+    }
 }
